@@ -5,7 +5,7 @@ from aiogram.exceptions import TelegramBadRequest
 from checker import CHANNEL_ID
 
 
-async def formatted_from_mention(message: Message) -> None:
+async def formatted_from_mention(message: Message) -> str:
     return f"<a href='tg://user?id=6506201559'>‌{message.from_user.first_name}</a>"
 
 
