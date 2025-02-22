@@ -1,0 +1,14 @@
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+
+# OS generated files # Тут часто пишут операционную систему, например MacOS: .DS_Store
+
+# Logs
+*.log
